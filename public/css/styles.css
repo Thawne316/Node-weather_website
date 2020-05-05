@@ -43,7 +43,11 @@ header a {
 
 input {
     border: 1px solid #cccccc;
-    padding: 8px;
+    padding: 8px; 
+}
+
+input:focus {
+    outline: 1px solid grey;
 }
 
 button {
